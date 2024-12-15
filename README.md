@@ -28,4 +28,10 @@
       <td colspan="11" style="background-color:pink;">-01/25</td>
       <td colspan="11" style="background-color:rgb(171, 220, 239);">-03/25</td>
     </tr>
+    <tr>
+      <td colspan="11">Alpha</td>
+  <td colspan="11">General</td>
+      <td colspan="11" style="background-color:pink;">web mockup</td>
+      <td colspan="11" style="background-color:rgb(171, 220, 239);">build app</td>
+    </tr>
     
