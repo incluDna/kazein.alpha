@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Volunteer & Workshop</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <style>
+            ul {
+              list-style-type:none;
+              margin:0;
+              padding:0;
+              overflow:hidden;
+              background-color:bisque;
+            }
+            </style>
+            <style>
+            li{
+                float:left;
+            }
+            li a{
+            display:block;
+            color:rgb(116, 40, 40);
+            text-align:center;
+            padding:16px;
+            text-decoration:none;
+            }
+            li a:hover {
+                background-color:#9ee2b6;
+            }
+            /*main {
+                padding: 20px;
+                /*min-height: 80vh;  /* เพิ่มความสูงขั้นต่ำให้กับ main */
+                /*padding-bottom: 300px;  /* เพิ่มพื้นที่ก่อนถึง footer */
+            /*}*/
+            main {
+                padding: 20px;
+                /*min-height: 80vh;  /* เพิ่มความสูงขั้นต่ำให้กับ main */
+                padding-bottom: 100px;  /* เพิ่มพื้นที่ก่อนถึง footer */
+            }
+            .bottom-content {
+            margin-top:auto; /* ดันให้เนื้อหานี้อยู่ด้านล่างสุด */
+            text-align:left;
+            background-color: #fff;
+            /*padding-bottom: 10px;
+            min-height: 80vh;
+            /*border-top: 300px;*/}
+            .border-rounded {
+      display: inline-block; /* เพื่อให้ border อยู่รอบข้อความ */
+      padding: 3px 6px; /* เพิ่มพื้นที่รอบข้อความ */
+      border: 1px solid #ffffff; /* กรอบเส้นสีเขียว */
+      border-radius: 15px; /* ทำให้มุมโค้ง */
+      font-size: 12px; /* ขนาดตัวอักษร */
+    }
+       </style>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="a.html">Budget</a></li>
+            <li><a href="b.html"class="active">Volunteer & Workshop</a></li>
+            <li><a href="c.html">Travelling</a></li>
+            <li><a href="d.html">Preventions</a></li>
+            <li><a href="e.html">Brain teaser games</a></li>
+          </ul>
+        </nav>
+      </header>
+
+  <main>
+    <h1><span style="background-color: rgb(247, 223, 1); border:2px solid rgb(247, 223, 1); border-radius:20px">"  STAGE 2 : Volunteer & Workshop  "</span></h1>
+    <p><img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbW1iemtvOTNxd2dobWVsaTFxZGczeXB5ODA2ODhxejUyYW4ybnF2ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/pr1bdU6YHKp63eDdWb/giphy.gif" width="40">  <mark style="background-color:rgb(248, 255, 202);">: ยินดีด้วย คุณเข้าสู่ช่วงหลังเกษียณแล้ว เหงา ๆ ว่าง ๆ สนใจทำ volunteer/workshop มั้ย!</p>
+
+    <!-- ช่องกรอกข้อมูล -->
+    <label for="inputField">แนะนำกิจกรรมที่เหมาะกับอายุของคุณ: </label>
+    <input type="number" id="inputField" placeholder="กรอกอายุ" />
+
+    <!-- ส่วนแสดงรูปภาพ -->
+    <div class="image-grid" id="imageContainer">
+      <!-- รูปภาพที่จะแสดงอยู่ตลอดเวลา -->
+      <div class="image-container" id="image1">
+        <img src="jobs-thumbnail-eb34670adeb90fed4a7b2765f660b209.jpg" alt="Image 1">
+        <p><strong><a href="https://www.jitarsabank.com/job/detail/10416">อาสาปลูกป่าชายเลน บางปู และทำ seed ball</a></strong>
+            <br>อาทิตย์ 26 มค 2568
+            <br>พบมิตร จิตอาสา
+            <br>07:30 อาทิตย์ 26 ม.ค. 2568 - 12:30 อาทิตย์ 26 ม.ค. 2568 5 ชม. (ไป-กลับ)
+            <br>ศูนย์ศึกษาธรรมชาติกองทัพบกบางปู
+            <br>มีค่าใช้จ่าย</p>
+      </div>
+      <div class="image-container" id="image2">
+        <img src="jobs-header-88a9bc2b5311ddbb48eae9297cab4078.jpg" alt="Image 2">
+        <p><strong><a href="https://www.jitarsabank.com/job/detail/10408">กิจกรรมใส่ปุ๋ยบำรุงต้นไม้และเก็บขยะรอบบริเวณ ณ สวนเบญจกิติ</a></strong>
+            <br>Cloud Tree
+            <br>08:00 เสาร์ 25 ม.ค. 2568 - 14:00 เสาร์ 25 ม.ค. 2568 6 ชม. (ไป-กลับ)
+            <br>สวนเบญจกิติ
+        </p>
+      </div>
+      <div class="image-container" id="image3">
+        <img src="jobs-thumbnail-69efbf93a9f03866598cbb468153e384.jpg" alt="Image 3">
+        <p><strong><a href="https://www.jitarsabank.com/job/detail/10403">กิจกรรมทำไข่เค็ม เพื่อน้อง ที่ อ.อัมพวา รุ่น 13</a></strong>
+            <br>ONE FINE DAY
+            <br>06:00 เสาร์ 15 ก.พ. 2568 - 12:00 เสาร์ 15 ก.พ. 2568 6 ชม. (ไป-กลับ)
+            <br>มูลนิธิเด็ก พริ้งพวงแก้ว
+            <br>มีค่าใช้จ่าย
+        </p>
+      </div>
+      <div class="image-container" id="image4">
+        <img src="jobs-thumbnail-accf8bb6b2e043c92affb7ee9cfb788e.jpg" alt="Image 4">
+        <p><strong><a href="https://www.jitarsabank.com/job/detail/10303">ปั้น EM Ball บำบัดน้ำเสียเพื่อชุมชน</a></strong>
+            <br>พบมิตร จิตอาสา
+            <br>08:30 เสาร์ 18 ม.ค. 2568 - 12:30 เสาร์ 18 ม.ค. 2568 4 ชม. (ไป-กลับ)
+            <br>ลานกิจกรรมท่าดินแดง (ใกล้ไอคอนสยาม)
+            <br>มีค่าใช้จ่าย
+        </p>
+      </div>
+      <div class="image-container" id="image5">
+        <img src="jobs-thumbnail-519f74e6bead0100c6df6042bd4ee250.jpeg" alt="Image 5">
+        <p><strong><a href="https://www.jitarsabank.com/job/detail/10305">กิจกรรมร่วมโครงการขยายพันธ์ุและฟื้นฟูปะการังอ่อน ที่เกาะสีชัง รุ่น 24</a></strong>
+            <br>ONE FINE DAY
+            <br>06:00 อาทิตย์ 19 ม.ค. 2568 - 18:00 อาทิตย์ 19 ม.ค. 2568 12 ชม. (ไป-กลับ)
+            <br>เกาะสีชัง
+            <br>มีค่าใช้จ่าย
+        </p>
+      </div>
+      <div class="image-container" id="image6">
+        <img src="462882206_848983840653289_8134225868901732527_n.jpg" alt="Image 6">
+        <p><strong><a href="https://www.facebook.com/share/p/14w8fFSY8V/">Aging Innovation Night เปิดโลกนวัตกรรมเปลี่ยนสังคมสูงวัย</a></strong>
+            <br>ยกระดับคุณภาพชีวิตของผู้สูงอายุ 
+            การเงิน / สุขภาพ / ที่อยู่อาศัย / ไลฟ์สไตล์
+            <br>ต.ค. 67 - ก.พ. 68
+            <br>18.00 - 20.30 น.
+            <br>ESG Bonding Hub อาคาร The Ninth Towers ชั้น B
+        </p>
+      </div>
+      <div class="bottom-content">
+        <p>Last updated: 15/12/2024
+        </p>
+      </div>
+    
+  </main>
+
+  <script>
+    // ดักจับการกรอกข้อมูลในช่อง
+    document.getElementById('inputField').addEventListener('input', function() {
+      const inputValue = parseInt(this.value);
+      
+      // ซ่อนทุกรูปภาพก่อน
+      const allImages = document.querySelectorAll('.image-container');
+      allImages.forEach(img => img.style.display = 'block'); // แสดงทุกรูปภาพตอนแรก
+
+      // ตรวจสอบค่าและแสดงรูปตามช่วงตัวเลขที่กรอก
+      if (inputValue >= 40 && inputValue <= 50) {
+        // แสดงเฉพาะรูปภาพที่เกี่ยวข้อง
+        document.getElementById('image1').style.display = 'block';
+        document.getElementById('image2').style.display = 'block';
+        document.getElementById('image3').style.display = 'block';  // ซ่อนรูปที่ไม่เกี่ยวข้อง
+        document.getElementById('image4').style.display = 'block';
+        document.getElementById('image5').style.display = 'block';
+        document.getElementById('image6').style.display = 'block';
+      } else if (inputValue > 50 && inputValue <= 60) {
+        // แสดงรูปภาพอีกชุด
+        document.getElementById('image1').style.display = 'none';
+        document.getElementById('image2').style.display = 'none';
+        document.getElementById('image3').style.display = 'block';
+        document.getElementById('image4').style.display = 'block';
+        document.getElementById('image5').style.display = 'none';
+        document.getElementById('image6').style.display = 'block';
+      } else if (inputValue > 60 && inputValue <= 65) {
+        // แสดงรูปภาพอีกชุด
+        document.getElementById('image1').style.display = 'none';
+        document.getElementById('image2').style.display = 'none';
+        document.getElementById('image3').style.display = 'none';
+        document.getElementById('image4').style.display = 'none';
+        document.getElementById('image5').style.display = 'none';
+        document.getElementById('image6').style.display = 'block';
+      }
+        else if (inputValue == null && inputValue < 40){
+        // ถ้าไม่ตรงกับเงื่อนไขใดๆ ก็แสดงทุกรูป
+        allImages.forEach(img => img.style.display = 'block');
+      }
+      else if (inputValue > 65){
+        // ถ้าไม่ตรงกับเงื่อนไขใดๆ ก็แสดงทุกรูป
+        allImages.forEach(img => img.style.display = 'none');
+      } 
+    });
+  </script>
+
+  <style>
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* 3 คอลัมน์ */
+      gap: 10px;
+      padding: 20px;
+    }
+
+    .image-container {
+      text-align: center;
+    }
+
+    .image-container img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .image-container p {
+      margin: 10px 0 0;
+      font-size: 1em;
+      color: #333;
+    }
+  </style>
+
+</body>
+</html>
+
+
+
+  <footer>
+    <p>&copy; 2025 Kazein <span class="border-rounded">alpha</span> | Contributed by incluDna</p>
+  </footer>
+</body>
+</html>

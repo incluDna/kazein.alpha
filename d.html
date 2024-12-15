@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page D</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <style>
+        ul {
+          list-style-type:none;
+          margin:0;
+          padding:0;
+          overflow:hidden;
+          background-color:bisque;
+        }
+        </style>
+        <style>
+        li{
+            float:left;
+        }
+        li a{
+        display:block;
+        color:rgb(116, 40, 40);
+        text-align:center;
+        padding:16px;
+        text-decoration:none;
+        }
+        li a:hover {
+            background-color:#9ee2b6;
+        }
+        main {
+                padding: 20px;
+                /*min-height: 80vh;  /* เพิ่มความสูงขั้นต่ำให้กับ main */
+                padding-bottom: 150px;  /* เพิ่มพื้นที่ก่อนถึง footer */
+            }
+   </style>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="a.html">Budget</a></li>
+        <li><a href="b.html">Volunteer & Workshop</a></li>
+        <li><a href="c.html">Travelling</a></li>
+        <li><a href="d.html" class="active">Preventions</a></li>
+        <li><a href="e.html">Brain teaser games</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1><span style="background-color: rgb(247, 223, 1); border:2px solid rgb(247, 223, 1); border-radius:20px">"  STAGE 4 : Preventions  "</span></h1>
+    <p><img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbW1iemtvOTNxd2dobWVsaTFxZGczeXB5ODA2ODhxejUyYW4ybnF2ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/pr1bdU6YHKp63eDdWb/giphy.gif" width="40">  <mark style="background-color:rgb(248, 255, 202);">: หลังจากพักผ่อนอย่างเต็มที่ เรามาดูแลสุขภาพ ด้วยการเรียนรู้การป้องกัน/รับมือกับโรคต่าง ๆ กันดีกว่า</p>
+          <style>
+            /* การตั้งค่าทั่วไป */
+            .row-container {
+              display: grid;
+              grid-template-columns: 1fr; /* จัดเป็น 1 แถว */
+              gap: 20px; /* ระยะห่างระหว่างแต่ละแถว */
+              padding: 20px;
+            }
+        
+            .row {
+              display: grid;
+              grid-template-columns: 60% 40%; /* รูป 40%, ข้อความ 60% */
+              gap: 20px; /* ระยะห่างระหว่างภาพและข้อความ */
+              align-items: center; /* จัดให้อยู่กึ่งกลาง */
+            }
+        
+            .row p {
+              font-size: 1em;
+              color: #333;
+              line-height: 1.6; /* เพิ่มความอ่านง่ายให้ paragraph */
+            }
+
+            .row img {
+              width: 100%;
+              height: auto;
+              border-radius: 10px;
+              box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            }
+        
+            /* รองรับหน้าจอเล็ก */
+            @media (max-width: 768px) {
+              .row {
+                grid-template-columns: 1fr; /* เปลี่ยนเป็นแนวตั้ง */
+              }
+            }
+            .border-rounded {
+      display: inline-block; /* เพื่อให้ border อยู่รอบข้อความ */
+      padding: 3px 6px; /* เพิ่มพื้นที่รอบข้อความ */
+      border: 1px solid #ffffff; /* กรอบเส้นสีเขียว */
+      border-radius: 15px; /* ทำให้มุมโค้ง */
+      font-size: 12px; /* ขนาดตัวอักษร */
+    }            
+          </style>
+        <body>
+          <div class="row-container">
+            <!-- Row 1 -->
+            <div class="row">
+              <p><strong style="font-size:20px;"><a href="https://www.rama.mahidol.ac.th/ramachannel/infographic/%E0%B9%82%E0%B8%A3%E0%B8%84%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B9%80%E0%B8%82%E0%B9%88%E0%B8%B2%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%A1/">โรคข้อเข่าเสื่อม</a></strong>
+                <br><strong>อาการ</strong> : ปวดข้อเข่า, บวมและอักเสบ, เข้าฝืด มีเสียง
+                <br><strong>สาเหตุ</strong> : กระดูกอ่อนเสื่อมสภาพ, อายุมาก, น้ำหนักมาก, ใช้เข่ามาก/บาดเจ็บ
+                <br><strong>ป้องกัน</strong> : ลดการใช้เข่าเยอะ, คุมน้ำหนัก, ออกกำลังกายลดแรงกระแทก เช่น ว่ายน้ำ</p>
+              <img src="Screenshot 2024-12-14 213754.png" alt="Image 1">
+            </div>
+            <!-- Row 2 -->
+            <div class="row">
+              <p><strong style="font-size:20px;"><a href="https://www.bangpakok3.com/care_blog/view/252">โรคความดันโลหิตสูง</a></strong>
+                <br><strong>อาการ</strong> : ปวดหัว หน้ามืด หายใจลำบาก
+                <br><strong>สาเหตุ</strong> : อาหารที่เกลือ, ไขมันสูง ความเครียด การสูบบุหรี่หรือดื่มแอลกอฮอล์
+                <br><strong>ป้องกัน</strong> : ลดเกลือและไขมัน, เลี่ยงบุหรี่-แอลกอฮอล, ทานอาหาร/ผลไม้โพแทสเซียมสูง เช่น กล้วย
+            </p>
+              <img src="Screenshot 2024-12-14 213806.png" alt="Image 2">
+            </div>
+            <!-- Row 3 -->
+            <div class="row">
+              <p><strong style="font-size:20px;"><a href="https://www.khonkaenram.com/th/services/health-information/health-articles/med/stroke">โรคหลอดเลือดสมอง</a></strong>
+                <br><strong>อาการ</strong> : พูดไม่ชัด หน้าเบี้ยว แขนขาอ่อนแรง
+                <br><strong>สาเหตุ</strong> : ความดันสูง ไขมันในหลอดเลือด
+                <br><strong>ป้องกัน</strong> : ไม่สูบบุหรี่ ออกกำลังกาย ลดพวกไขมัน ทานอาหารให้ครบ 5 หมู่ 
+              </p>
+              <img src="Screenshot 2024-12-14 213817.png" alt="Image 3">
+            </div>
+            <!-- Row 4 -->
+            <div class="row">
+              <p><strong style="font-size:20px;"><a href="https://www.praram9.com/chest-pain-heart-disease/">โรคหลอดเลือดหัวใจ</a></strong>
+                <br><strong>อาการ</strong> : เจ็บหน้าอก ใจสั่น เหนื่อยง่าย คลื่นไส้ ปวดร้าวไปแขน,คอ,หลัง
+                <br><strong>สาเหตุ</strong> : ไขมันสะสม ลิ่มเลือดอุดตัน ความอ้วน ความดันสูง คอเลสเตอรอลสูง
+                <br><strong>ป้องกัน</strong> : คุมระดับน้ำตาล ลดไขมัน ทานผักผลไม้ ออกกำลัง ไม่สูบบุหรี่
+              </p>
+              <img src="S__12394520.jpg" alt="Image 4">
+              </div>
+            <!-- Row 5 -->
+            <div class="row">
+                <p><strong style="font-size:20px;"><a href="https://il.mahidol.ac.th/e-media/hormone/chapter3/insulin_hormone.htm">โรคเบาหวาน</a></strong>
+                    <br><strong>อาการ</strong> : ปัสสาวะบ่อย กระหายน้ำ น้ำหนักลดแม้ทานมาก ชาที่ปลายมือปลายเท้า
+                    <br><strong>สาเหตุ</strong> : ไขมันในเลือดสูง ร่างกายขาดอินซูลิน
+                    <br><strong>ป้องกัน</strong> : ควบคุมน้ำหนัก ออกกำลังกาย ทานอาหารที่มีประโยชน์ หมั่นตรวจสุขภาพ
+                </p>
+                <img src="glycogenolysis.jpg" alt="Image 5">
+                </div>
+            <!-- Row 6 -->
+            <div class="row">
+                <p><strong style="font-size:20px;"><a href="https://www.rama.mahidol.ac.th/ramachannel/article/%E0%B9%84%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%A2%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%A3%E0%B8%B1%E0%B8%87-%E0%B8%88%E0%B8%B0%E0%B8%A3%E0%B8%B9%E0%B9%89%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%AD/">โรคไต</a></strong>
+                    <br><strong>อาการ</strong> : บวม ปัสสาวะผิดปกติ คัน เบื่ออาหาร
+                    <br><strong>สาเหตุ</strong> : ติดเชื้อในทางเดินปัสสาวะ, เป็นผู้ป่วยเบาหวาน
+                    <br><strong>ป้องกัน</strong> : ควบคุมระดับน้ำตาลในเลือด ดื่มน้ำให้เพียงพอ ออกกำลังกาย หมั่นตรวจสุขภาพ
+                </p>
+                <img src="210_ภาวะแทรกซ้อนจากไตวายเรื้อรัง_1-scaled-2.png" alt="Image 6">
+                </div>
+            <!-- Row 7 -->
+            <div class="row">
+                <p><strong style="font-size:20px;"><a href="https://baanlalisa.com/10-alzheimers-warning-signs/">โรคอัลไซเมอร์</a></strong>
+                    <br><strong>อาการ</strong> : ความจำเสื่อม งุนงง มีปัญหาในการใช้ภาษา
+                    <br><strong>สาเหตุ</strong> : การสะสมของโปรตีนผิดปกติในสมอง
+                    <br><strong>ป้องกัน</strong> : รักษาสุขภาพจิตให้ดี ออกกำลังกาย หากิจกรรมพัฒนาสมอง
+                </p>
+                <img src="10-สัญญาณเตือน-ของ-โรคอัลไซเมอร์-300x181.jpg" alt="Image 7">
+                </div>
+          </div>
+        </body>
+
+          
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Kazein <span class="border-rounded">alpha</span> | Contributed by incluDna</p>
+  </footer>
+</body>
+</html>

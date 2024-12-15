@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page C</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <style>
+        ul {
+          list-style-type:none;
+          margin:0;
+          padding:0;
+          overflow:hidden;
+          background-color:bisque;
+        }
+        </style>
+        <style>
+        li{
+            float:left;
+        }
+        li a{
+        display:block;
+        color:rgb(116, 40, 40);
+        text-align:center;
+        padding:16px;
+        text-decoration:none;
+        }
+        li a:hover {
+            background-color:#9ee2b6;
+        }
+        main {
+                padding: 20px;
+                /*min-height: 80vh;  /* เพิ่มความสูงขั้นต่ำให้กับ main */
+                padding-bottom: 100px;  /* เพิ่มพื้นที่ก่อนถึง footer */
+            }
+        .bottom-content {
+            margin-top:auto; /* ดันให้เนื้อหานี้อยู่ด้านล่างสุด */
+            text-align: left;
+            background-color: #fff;
+            /*padding-bottom: 10px;
+            min-height: 80vh;
+            /*border-top: 300px;*/}
+        /*main {
+            display: flex;
+            flex-direction: column; /* จัดเรียงเนื้อหาในแนวตั้ง */
+            /*min-height: 100vh; /* กำหนดให้กินพื้นที่สูงสุดของหน้าจอ */
+            /*padding-bottom: 20px;
+            /*background-color: #f4f4f9;*/
+            /*}
+
+        .bottom-content {
+            margin-top: auto; /* ดันให้เนื้อหานี้อยู่ล่างสุดของ main */
+            /*text-align: center;
+            background-color: #fff;
+            padding: 10px;
+            font-size: 14px;
+            color: #5555;
+            border-top: 1px solid #ccc;
+          /*}*/
+          .border-rounded {
+      display: inline-block; /* เพื่อให้ border อยู่รอบข้อความ */
+      padding: 3px 6px; /* เพิ่มพื้นที่รอบข้อความ */
+      border: 1px solid #ffffff; /* กรอบเส้นสีเขียว */
+      border-radius: 15px; /* ทำให้มุมโค้ง */
+      font-size: 12px; /* ขนาดตัวอักษร */
+    }
+        
+   </style>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="a.html">Budget</a></li>
+        <li><a href="b.html">Volunteer & Workshop</a></li>
+        <li><a href="c.html" class="active">Travelling</a></li>
+        <li><a href="d.html">Preventions</a></li>
+        <li><a href="e.html">Brain teaser games</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1><span style="background-color: rgb(247, 223, 1); border:2px solid rgb(247, 223, 1); border-radius:20px">"  STAGE 3 : Travelling  "</span></h1>
+    <p><img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbW1iemtvOTNxd2dobWVsaTFxZGczeXB5ODA2ODhxejUyYW4ybnF2ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/pr1bdU6YHKp63eDdWb/giphy.gif" width="40">  <mark style="background-color:rgb(248, 255, 202);">: นี่แหละ Highlight ชีวิตหลังเกษียณ ทำงานอย่างเหน็ดเหนื่อยมายาวนาน ถึงเวลาเที่ยวแล้ว</p>
+    <!-- ช่องกรอกข้อมูล -->
+    <label for="inputField">แนะนำสถานที่ท่องเที่ยวที่อยู่ในงบของคุณ: </label>
+    <input type="number" id="inputField" placeholder="กรอกงบ" />
+
+    <!-- ส่วนแสดงรูปภาพ -->
+    <div class="image-grid" id="imageContainer">
+      <!-- รูปภาพที่จะแสดงอยู่ตลอดเวลา -->
+      <div class="image-container" id="image1">
+        <img src="s11.jpg" alt="Image 1">
+        <p><strong> ตลาดน้ำอัมพวา จังหวัดสมุทรสงคราม</strong>
+          <br>ตลาดน้ำ มีเรือขายอาหาร มีอาหารและขนมโบราณ ตอนเย็นๆ ล่องเรือชมหิ่งห้อย
+          <br>1 วันเต็ม (มาเช้า-กลับดึก)
+          <br>งบ 900 บาท/คน</p>
+      </div>
+      <div class="image-container" id="image2">
+        <img src="s17.jpg" alt="Image 2">
+        <p><strong>โครงการชั่งหัวมันตามพระราชดำริ จังหวัดเพชรบุรี</strong>
+            <br>ชมการทำปุ๋ยหมัก การปลูกมันเทศ, ผัก,ผลไม้ ชมพิพิธภัณฑ์
+            <br>1 วันเต็ม (มาเช้า-กลับเย็น)
+            <br>งบ 500-700 บาท/คน
+        </p>
+      </div>
+      <div class="image-container" id="image3">
+        <img src="s10.jpg" alt="Image 3">
+        <p><strong>ชายทะเลหัวหิน จังหวัดประจวบคีรีขันธ์</strong>
+          <br>เที่ยวทะเล ว่ายน้ำ ชมอุทยาน เดินตลาดกลางคืน
+          <br>2 วัน 1 คืน
+          <br>งบ 2000 บาท/คน
+        </p>
+      </div>
+      <div class="image-container" id="image4">
+        <img src="s9.jpg" alt="Image 4">
+        <p><strong>สวนนงนุช พัทยา จังหวัดชลบุรี</strong>
+          <br>ชมพืชพรรณและการตกแต่งสวน ทั้งสวนสับปะรดสี, สวนฝรั่งเศส, สวนอิตาเลียน, สวนสโตนเฮนจ์ เป็นต้น
+          <br>1 วันเต็ม (ออกเช้า-กลับเย็น)
+          <br>งบ 700 บาท/คน
+        </p>
+      </div>
+      <div class="image-container" id="image5">
+        <img src="PTY_Blog_Silverlake.jpg" alt="Image 5">
+        <p><strong>ไร่องุ่น Silverlake Vineyard พัทยา</strong>
+          <br>เที่ยวทะเล ว่ายน้ำ ไหว้พระ ชมไร่องุ่น
+          <br>2 วัน 1 คืน
+          <br>งบ 2000 บาท/คน
+        </p>
+      </div>
+      <div class="image-container" id="image6">
+        <img src="ahr0chm6ly9zlmlzyw5vb2suy29tl_2.jpg" alt="Image 6">
+        <p><strong>ท่องเที่ยว ชมธรรมชาติ จังหวัดเชียงใหม่</strong>
+          <br>ชมดอยสุเทพ พระตำหนักภูพิงค์ ดอยอินทนนท์ โครงการหลวง น้ำพุร้อนสันกำแพง บ้านแม่กำปอง
+          <br>3 วัน 2 คืน (ขึ้นเครื่องบิน)
+          <br>งบ 5500 บาท/คน 
+        </p>
+      </div>
+    </div>
+    <div class="bottom-content">
+      <p>Last updated: 15/12/2024.
+        <br>Resources:<a href="https://travel.kapook.com/view171359.html">https://travel.kapook.com/view171359.html</a>
+        <br><a href="https://tourthailandbooking.com/blog-things-to-do/5-places-to-visit-with-elder-family-member">https://tourthailandbooking.com/blog-things-to-do/5-places-to-visit-with-elder-family-member</a>
+      </p>
+    </div>
+  </main>
+
+  <script>
+    // ดักจับการกรอกข้อมูลในช่อง
+    document.getElementById('inputField').addEventListener('input', function() {
+      const inputValue = parseInt(this.value);
+      
+      // ซ่อนทุกรูปภาพก่อน
+      const allImages = document.querySelectorAll('.image-container');
+      allImages.forEach(img => img.style.display = 'block'); // แสดงทุกรูปภาพตอนแรก
+
+      // ตรวจสอบค่าและแสดงรูปตามช่วงตัวเลขที่กรอก
+      if (inputValue >= 500 && inputValue <= 700) {
+        // แสดงเฉพาะรูปภาพที่เกี่ยวข้อง
+        document.getElementById('image1').style.display = 'none';
+        document.getElementById('image2').style.display = 'block';
+        document.getElementById('image3').style.display = 'none';  // ซ่อนรูปที่ไม่เกี่ยวข้อง
+        document.getElementById('image4').style.display = 'none';
+        document.getElementById('image5').style.display = 'none';
+        document.getElementById('image6').style.display = 'none';
+      } else if (inputValue > 700 && inputValue < 900) {
+        // แสดงรูปภาพอีกชุด
+        document.getElementById('image1').style.display = 'none';
+        document.getElementById('image2').style.display = 'block';
+        document.getElementById('image3').style.display = 'none';
+        document.getElementById('image4').style.display = 'block';
+        document.getElementById('image5').style.display = 'none';
+        document.getElementById('image6').style.display = 'none';
+      }else if (inputValue >= 900 && inputValue < 2000) {
+        // แสดงรูปภาพอีกชุด
+        document.getElementById('image1').style.display = 'block';
+        document.getElementById('image2').style.display = 'block';
+        document.getElementById('image3').style.display = 'none';
+        document.getElementById('image4').style.display = 'block';
+        document.getElementById('image5').style.display = 'none';
+        document.getElementById('image6').style.display = 'none';
+      }else if (inputValue >= 2000 && inputValue < 5500) {
+        // แสดงรูปภาพอีกชุด
+        document.getElementById('image1').style.display = 'block';
+        document.getElementById('image2').style.display = 'block';
+        document.getElementById('image3').style.display = 'block';
+        document.getElementById('image4').style.display = 'block';
+        document.getElementById('image5').style.display = 'block';
+        document.getElementById('image6').style.display = 'none';
+      }
+      else if (inputValue == null && inputValue >= 5500){
+        // ถ้าไม่ตรงกับเงื่อนไขใดๆ ก็แสดงทุกรูป
+        allImages.forEach(img => img.style.display = 'block');
+      }
+      else if (inputValue < 500){
+        // ถ้าไม่ตรงกับเงื่อนไขใดๆ ก็แสดงทุกรูป
+        allImages.forEach(img => img.style.display = 'none');
+      } 
+    });
+  </script>
+
+  <style>
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* 3 คอลัมน์ */
+      gap: 10px;
+      padding: 20px;
+    }
+
+    .image-container {
+      text-align: center;
+    }
+
+    .image-container img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .image-container p {
+      margin: 10px 0 0;
+      font-size: 1em;
+      color: #333;
+    }
+  </style>
+
+</body>
+</html>
+
+
+  <footer>
+    <p>&copy; 2025 Kazein <span class="border-rounded">alpha</span> | Contributed by incluDna</p>
+  </footer>
+</body>
+</html>
