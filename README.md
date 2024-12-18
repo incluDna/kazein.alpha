@@ -8,30 +8,43 @@
 - Prevention: เรียนรู้สาเหตุ อาการ และแนวทางป้องกันโรค เพื่อรับมือกับโรคที่อาจเกิดขึ้นจากอายุที่มากขึ้นด้วย
 - ฺGame Teaser Game: เกมพัฒนาสมอง ป้องกันโรคอัลไซเมอร์
 
+[Download App "Kazein.alpha"](https://github.com/incluDna/kazein.alpha/blob/863ef5455a5dc9c4274fb891dbba513f71e55c8e/app-debug.apk) <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGR5OTJ6ZnJ3bnl6YmFrcDZ1aml5NncxNDczZjR3MmxnOTFkdHlxdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dpnBD3KRM9WsU/giphy.gif" width="75px;" height="40px">
+
+
 #### Plan for updating
 <table>
     <tr>
+     <th colspan="11">Date</th>
      <th colspan="11">Version</th>
      <th colspan="11">Stage</th>
-      <th colspan="11">15/12/24</th>
+      <th colspan="11">Update</th>
       <th colspan="11">Next update</th>
     </tr>
  <tr>
+      <td colspan="11">15/12/24</td>
       <td colspan="11">Alpha</td>
   <td colspan="11">Budget</td>
       <td colspan="11" style="background-color:pink;">Net Fund</td>
       <td colspan="11" style="background-color:rgb(171, 220, 239);">3 Buckets</td>
     </tr>
  <tr>
-      <td colspan="11">Alpha</td>
+  <td colspan="11">15/12/24</td>    
+  <td colspan="11">Alpha</td>
   <td colspan="11">Volun&WS</td>
       <td colspan="11" style="background-color:pink;">-01/25</td>
       <td colspan="11" style="background-color:rgb(171, 220, 239);">-03/25</td>
     </tr>
     <tr>
+     <td colspan="11">15/12/24</td>
       <td colspan="11">Alpha</td>
   <td colspan="11">General</td>
       <td colspan="11" style="background-color:pink;">web mockup</td>
-      <td colspan="11" style="background-color:rgb(171, 220, 239);">build app</td>
+      <td colspan="11" style="background-color:rgb(171, 220, 239);">build app✅</td>
     </tr>
-    
+ <tr>
+     <td colspan="11">18/12/24</td>
+      <td colspan="11">Alpha</td>
+  <td colspan="11">General</td>
+      <td colspan="11" style="background-color:pink;">build mobile app</td>
+      <td colspan="11" style="background-color:rgb(171, 220, 239);">fix menu tab</td>
+    </tr>
