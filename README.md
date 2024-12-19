@@ -48,5 +48,5 @@
       <td colspan="11">Alpha</td>
   <td colspan="11">General</td>
       <td colspan="11" style="background-color:pink;">build mobile app</td>
-      <td colspan="11" style="background-color:rgb(171, 220, 239);">fix menu tab</td>
+      <td colspan="11" style="background-color:rgb(171, 220, 239);">fix menu bar</td>
     </tr>
