@@ -6,7 +6,7 @@
 - Volunteer & Workshop: กิจกรรมจิตอาสา ออกไปทางประโยชน์ให้สังคม พบผู้คนใหม่ ๆ คลายความเหงาได้ `sortตามอายุ`
 - Travelling: สถานที่ท่องเที่ยว สำหรับพักผ่อน เดินทางสะดวก ง่ายต่อการท่องเที่ยว `sortตามงบ`
 - Prevention: เรียนรู้สาเหตุ อาการ และแนวทางป้องกันโรค เพื่อรับมือกับโรคที่อาจเกิดขึ้นจากอายุที่มากขึ้นด้วย
-- ฺGame Teaser Game: เกมพัฒนาสมอง ป้องกันโรคอัลไซเมอร์
+- Game Teaser Game: เกมพัฒนาสมอง ป้องกันโรคอัลไซเมอร์
 
 [Download App "Kazein.alpha" for mobile](https://github.com/incluDna/kazein.alpha/blob/863ef5455a5dc9c4274fb891dbba513f71e55c8e/app-debug.apk) <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGR5OTJ6ZnJ3bnl6YmFrcDZ1aml5NncxNDczZjR3MmxnOTFkdHlxdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dpnBD3KRM9WsU/giphy.gif" width="75px;" height="40px">
 
