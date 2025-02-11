@@ -52,4 +52,4 @@
     </tr>
 </table>
  
-© 2025 Kazein alpha | Contributed by incluDna
+© 2025 Kazein alpha | All rights reserved.
